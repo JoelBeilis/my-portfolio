@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, black, rgb(41, 41, 41), indigo, rgb(119, 0, 119), rgb(59, 59, 255), lightblue);
+    font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -16,8 +17,27 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(187, 187, 187);
 }
+
+h1 {
+    color: white;
+}
+
+/* Top Section*/
+.top-section {
+    height: 50vh; /* Adjust the height as needed */
+    background-image: url('assets/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Ensure text is readable on the background */
+} 
 
 /* TRANSITION */
 
@@ -46,7 +66,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -59,12 +79,51 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .logo:hover {
   cursor: default;
 }
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-top: -250px; /* Move the whole section up */
+  }
+  
+  .section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    margin-top: -250px; /* Move the profile picture up */
+  }
+  
+  .section__text {
+    align-self: center;
+    text-align: center;
+    margin-top: -250px; /* Move the text content up */
+  }
+  
+  .section__text p {
+    font-weight: 600;
+  }
+  
+  .section__text__p1 {
+    text-align: center;
+  }
+  
+  .section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
 
 /* HAMBURGER MENU */
 
