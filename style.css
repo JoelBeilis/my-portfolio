@@ -94,7 +94,7 @@ a:hover {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
-    margin-top: -250px; /* Move the whole section up */
+    margin-top: 0px; /* Move the whole section up */
   }
   
   .section__pic-container {
@@ -102,13 +102,13 @@ a:hover {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    margin-top: -250px; /* Move the profile picture up */
+    margin-top: 0px; /* Move the profile picture up */
   }
   
   .section__text {
     align-self: center;
     text-align: center;
-    margin-top: -250px; /* Move the text content up */
+    margin-top: 0px; /* Move the text content up */
   }
   
   .section__text p {

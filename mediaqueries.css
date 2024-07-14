@@ -5,6 +5,7 @@
     }
     .about-containers {
       flex-wrap: wrap;
+      margin: 1rem 0; /* Added margin */
     }
     #contact,
     #projects {
@@ -33,6 +34,7 @@
     section,
     .section-container {
       height: fit-content;
+      margin-bottom: 2rem; /* Added margin */
     }
     section {
       margin: 0 5%;
@@ -54,10 +56,12 @@
     }
     #profile {
       height: 83vh;
-      margin-bottom: 0;
+      margin-bottom: 2rem; /* Adjusted margin */
+      padding-top: 2rem; /* Added padding */
     }
     article {
       font-size: 1rem;
+      margin-bottom: 1.5rem; /* Added margin */
     }
     footer nav {
       height: fit-content;
@@ -67,6 +71,7 @@
     .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
+      margin: 1rem 0; /* Added margin */
     }
     .contact-info-container {
       margin: 0;
@@ -83,21 +88,27 @@
     }
     .nav-links {
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 1rem; /* Increased gap */
       text-align: center;
+      margin-bottom: 2rem; /* Added margin */
     }
     .section__pic-container {
       width: auto;
       height: 46vw;
       justify-content: center;
+      margin-bottom: 2rem; /* Added margin */
     }
     .section__text__p2 {
       font-size: 1.25rem;
+      margin-bottom: 1.5rem; /* Added margin */
     }
     .title {
       font-size: 2rem;
+      margin-bottom: 1.5rem; /* Added margin */
     }
     .text-container {
       text-align: justify;
+      margin-bottom: 1.5rem; /* Added margin */
     }
   }
+  
