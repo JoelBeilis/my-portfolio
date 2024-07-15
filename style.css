@@ -17,7 +17,11 @@ html {
 }
 
 p {
-  color: rgb(187, 187, 187);
+  color: rgb(145, 145, 145);
+}
+
+g {
+    color: white;
 }
 
 h1 {
